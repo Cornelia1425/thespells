@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>spells</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width : 768px)">
+    <script defer type="module" src="./src/main.jsx"></script> <!-- src="./src/index.js" -->
+  
+
+</head>
+
+<body>
+    <div id="root"></div>
+    <!-- title -->
+    <h1 class="magicfont">I Open at the Close</h1>
+    
+    <!-- golden snitch and music -->
+    <div class="audio-player">
+        <img id="snitchfly" alt="Golden_Snitch" src="./src/assets/img/0_snitchfly.png" alt="Golden_Snitch_initial" > <!--class="play-btn" -->
+        <img src="./src/assets/img/18_play_darkyellow.png" class="play-btn" alt="Play">  
+        <audio src="./src/assets/audio/01 - Prologue.mp3" class="audio"></audio>
+    </div>
+
+
+    <!-- top images -->
+    <img src="./src/assets/img/3_0_foorprint.png" alt="0_foorprint" class="side-image-left">
+    <img src="./src/assets/img/3_1_map1.png" alt="3_1_map1" class="side-image-right">
+ 
+
+    <!-- search bar -->
+    <div class="searchContainer">  
+        <form id="castSpell" action="" method="POST">
+            <label class="searchBySpellName">Search By Name:</label>
+            <input id="searchBySpellName" type="text" placeholder="Enter Spell Name">
+            <input id="tryme" type="submit" value="Try me">
+        </form>
+    </div>
+
+    <div class="searchResultContainer">
+        <p id="hereare">----- Here Are the Search Results -----</p>
+        <p id="searchBySpellName" ></p>
+    </div>
+
+    <div  clsss ="spellDetail">
+        <p id="hereare">----- Spell Details -----</p>
+        <!--  <p class="smalltitle">Spell Type:</p>
+        <p id="spellType"></p> -->
+        <p class="smalltitle">Spell Name:</p>
+        <p id="spellName"></p>
+        <p class="smalltitle">Spell Hand:</p>
+        <p id="spellHand"></p>
+        <p class="smalltitle" >Spell Incantation:</p>
+        <p id="myAudio" class="searchBySpellName">Click me to play sound 🎧</p>
+    <!--     <iframe width="300" height="120" title="Voicy audio player" src="https://www.voicy.network/embed/XFMM3Reta0OiL2-Lib7GRg?theme=dark"></iframe> -->
+        <p id="spellIncantation"></p>
+        <p class="smalltitle">Spell Image:</p>
+        <img id="spellImg" class="spellimg">
+ 
+    </div>
+
+
+
+        <div id="allspellcontainer">
+            <div id="spell">
+                <p id="hereare"> ----- Here Are All the Spells ----- </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="castle-container">
+            <img id="castle"  src="./src/assets/img/6_castle_black.svg" alt="castle" >
+        </div>
+    </section>
+ 
+  
+       
+     
+    
+ 
+    
+</body>
+
+</html>
