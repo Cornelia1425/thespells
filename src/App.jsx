@@ -15,11 +15,15 @@ function App() {
   }
 
   return (
+      
     <div className={"App "+ (isLumos? "Lumos" : "Nox")}>
      <ToggleDark isLumos={isLumos} handleLumosMode={handleLumosMode}/>
 
+    <br/> <br/>
     <MusicHeader />
+
     <BgImages />
+
     <SpellsControl />
 
 

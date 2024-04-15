@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import ReactDOM from 'react-dom/client'
+import SpellDetail from './SpellDetail'
 
 export default function SpellList({displaySpell}) {
     const [isList,setIsList] = useState({data:[]})
@@ -14,10 +15,14 @@ export default function SpellList({displaySpell}) {
     // const spellsToDisplay = isList.data.forEach(spell=>{
     return(
         <>
+
+            <SpellDetail spell={spell}/>
             {isList.data.map((spell,i)=> (
                 <button key={i} onClick={displaySpell}
                 >{spell.attributes.name}</button>
             ))}
+
+           
         </>
     )
 }
