@@ -17,11 +17,18 @@
     width:10vw;
 }
 
-.magicfont{
+h1#iopenattheclose{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(113, 110, 110);
+    display: inline;
+    margin: 90px auto auto auto;
+}
+
+/* .magicfont{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(113, 110, 110);
     
-}
+} */
 
 h1{
     text-align:center;

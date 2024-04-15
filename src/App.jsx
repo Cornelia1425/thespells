@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
 import './App.css'
 import ToggleDark from './components/ToggleDark' 
-import SpellList from './components/SpellList'
+import BgImages from './components/BgImages'
+import MusicHeader from './components/MusicHeader'
+import SpellsControl from './components/SpellsControl'
+
 
 function App() {
 
@@ -14,7 +17,12 @@ function App() {
   return (
     <div className={"App "+ (isLumos? "Lumos" : "Nox")}>
      <ToggleDark isLumos={isLumos} handleLumosMode={handleLumosMode}/>
-    <SpellList />
+
+    <MusicHeader />
+    <BgImages />
+    <SpellsControl />
+
+
     </div>
   )
 }
