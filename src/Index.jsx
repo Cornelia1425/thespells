@@ -96,6 +96,8 @@ main()
 
 
 
+//this is controlling playing and pausing music//
+/*
 const playBtn = document.querySelector('.play-btn');
 const audio = document.querySelector('.audio');
 
@@ -116,7 +118,10 @@ playBtn.addEventListener('click', function() {
 
 audio.addEventListener('ended', function() {
   playBtn.src = '.src/assets/img/18_play_darkyellow.png';
-});
+}
+*/
+//this is controlling playing and pausing music//
+);
 
 
 }
