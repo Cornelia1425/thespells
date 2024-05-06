@@ -96,32 +96,3 @@ main()
 
 
 
-//this is controlling playing and pausing music//
-/*
-const playBtn = document.querySelector('.play-btn');
-const audio = document.querySelector('.audio');
-
-playBtn.addEventListener('click', function() {
-  if (audio.paused) {
-    audio.play();
-    playBtn.src = '.src/assets/img/19_pause_darkyellow.png';
-    //playBtn.src = './assets/img/0_snitchfly.gif';
-    document.querySelector("#snitchfly").src = src=".src/assets/img/0_snitchfly.gif" 
-  } else {
-    audio.pause();
-    // audio.currentTime = 0; // Reset the audio to the beginning
-    playBtn.src = '.src/assets/img/18_play_darkyellow.png';
-    //playBtn.src = './assets/img/0_snitchfly.png';
-    document.querySelector("#snitchfly").src = src=".src/assets/img/0_snitchfly.png" 
-  }
-});
-
-audio.addEventListener('ended', function() {
-  playBtn.src = '.src/assets/img/18_play_darkyellow.png';
-}
-*/
-//this is controlling playing and pausing music//
-);
-
-
-}

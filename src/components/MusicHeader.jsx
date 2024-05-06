@@ -12,10 +12,12 @@ export default function MusicHeader (){
         const audio = document.querySelector('.audio')
 
         if (audio.paused) {
+            audio.loop=true;
             audio.play();
             setIsSnitchFly(true);
             setIsAudioPlaying(true); //this controls the play button
           } else {
+            audio.loop=false;
             audio.pause();
             setIsSnitchFly(false);
             setIsAudioPlaying(false);

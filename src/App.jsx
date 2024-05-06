@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './App.css'
 import ToggleDark from './components/ToggleDark' 
-import BgImages from './components/BgImages'
+
 import MusicHeader from './components/MusicHeader'
 import SpellsControl from './components/SpellsControl'
 
@@ -22,7 +22,7 @@ function App() {
     <br/> <br/>
     <MusicHeader />
 
- {/*    <BgImages /> */}
+
 
     <SpellsControl />
 
