@@ -116,7 +116,7 @@ div#spell{
     flex-wrap: wrap;
     text-align: center;
     padding: 30px;
-    background-color:bisque;
+    background-color:rgb(255, 228, 196, 0.5);
     margin:  30px auto;
     border-radius:10px;
     max-width: 400px;
@@ -129,7 +129,7 @@ div#spell{
     flex-direction: column;
     justify-content: center;
     padding: 30px;
-    background-color:bisque;
+    background-color:rgb(255, 228, 196, 0.5);
     margin:  30px auto;
     border-radius:10px;
     max-width: 400px;
@@ -147,7 +147,7 @@ div#spell{
     align-items: center;
     justify-content: center;
     padding: 30px;
-    background-color:bisque;
+    background-color:rgb(255, 228, 196, 0.5);
     margin: 30px auto;
     border-radius:12px;
     max-width: 400px
@@ -191,9 +191,15 @@ p#searchBySpellName{
     color: rgb(113, 110, 110);
 }
 
-
+.background_images_container{
+    display: block;
+    background-image: url("./assets/img/3_0_foorprint.png"), url("./assets/img/3_1_map1.png");
+    background-position: top 10vh left -10%, top 13vh  right -15%;
+    background-repeat: no-repeat;
+    background-size: 47vw; 
+}
   
-.side-image-left  {
+/* .side-image-left  {
     position: absolute;
     top: 0;
     left: -10%;
@@ -206,9 +212,10 @@ p#searchBySpellName{
     position: absolute;
     top: 0;
     right: -13%;
-    height: 50vh; /* Adjust the height as needed /
+    height: 50vh; 
+ } */
+ /* Adjust the height as needed /
     / You can also use width: 100px; or any other value to set the width */
- }
 
  #castle-container{
     display: flex;

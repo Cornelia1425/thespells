@@ -22,7 +22,7 @@ function App() {
     <br/> <br/>
     <MusicHeader />
 
-    <BgImages />
+ {/*    <BgImages /> */}
 
     <SpellsControl />
 
