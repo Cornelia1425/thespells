@@ -15,13 +15,19 @@ export default function SpellList({displaySpell}) {
     // const spellsToDisplay = isList.data.forEach(spell=>{
     return(
         <>
+       
+            
+            
+            <p id="hereare"> ----- Here Are All the Spells ----- </p> 
+          
+                {isList.data.map((spell,i)=> (
+                    <button key={i} onClick={displaySpell}
+                    >{spell.attributes.name}</button>
+                ))}
 
-            <SpellDetail spell={spell}/>
-            {isList.data.map((spell,i)=> (
-                <button key={i} onClick={displaySpell}
-                >{spell.attributes.name}</button>
-            ))}
-
+            <SpellDetail spell={spell2}/>
+         
+            
            
         </>
     )

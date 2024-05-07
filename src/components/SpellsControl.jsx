@@ -7,7 +7,7 @@ export default function SpellsControl(){
 
     return (
         <>
-
+       
             <SpellList />       
         </> 
     )     
